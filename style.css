@@ -1,0 +1,51 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container{
+    border: 2px solid;
+    width: 600px;
+}
+
+h1{
+    margin: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.headline, .inputfield{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    gap: 10px;
+}
+
+.headline, .button{
+    background-color: antiquewhite;
+}
+
+.inputfield{
+    background-color: aliceblue;
+    padding: 10px 10px;
+}
+
+
+.button{
+    margin: 0px 10px;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.button button{
+    height: 40px;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(24, 146, 24);
+    color: aliceblue;
+}
